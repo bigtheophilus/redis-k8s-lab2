@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/bigtheophilus/redis-k8s-lab2.git
     targetRevision: HEAD
-    path: charts/redis-app
+    path: gitops-repo/charts
     helm:
       valueFiles:
         - values.yaml
