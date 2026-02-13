@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: file:///workspace/gitops-repo
+    repoURL: https://github.com/bigtheophilus/redis-k8s-lab2.git
     targetRevision: HEAD
     path: charts/redis-app
     helm:
